@@ -31,10 +31,6 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginBottom="300px"
-
-
         >
 
         <TextView
@@ -51,6 +47,17 @@
             />
 
     </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:hint="본문을 입력하세요"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top"
+        />
+
 
     <Button
 
